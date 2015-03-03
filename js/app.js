@@ -27,7 +27,7 @@ app.controller('AppCtrl', ['$scope', '$mdSidenav', function($scope, $mdSidenav) 
   };
 
   $scope.isSectionSelected = function(item) {
-    return false;
+    return true;
   };
 
 }]);
