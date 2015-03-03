@@ -1,9 +1,9 @@
 var app = angular.module('StarterApp', ['ngMaterial']);
 
 app.filter("nospace", function() {
-    return function(e) {
-        return e ? e.replace(/ /g, "") : ""
-    }
+  return function(e) {
+    return e ? e.replace(/ /g, "") : ""
+  }
 });
 
 app.controller('AppCtrl', ['$scope', '$mdSidenav', function($scope, $mdSidenav) {
